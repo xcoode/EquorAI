@@ -1,0 +1,33 @@
+{
+  "seq_len": 8,
+  "feature_cols": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_4",
+    "rolling_3_mean",
+    "rolling_4_mean",
+    "rolling_8_mean",
+    "mean_stock",
+    "mean_discount",
+    "holiday_flag",
+    "avg_precip",
+    "avg_temp",
+    "avg_hum",
+    "avg_wind",
+    "wti_price_usd_per_barrel",
+    "rolling_std_4",
+    "rolling_cv_4",
+    "covid_flag"
+  ],
+  "static_col": "combined_weight",
+  "target_col": "target_next_week",
+  "sku_embedding_rows_minus_one": 865,
+  "device": "cuda",
+  "torchscript": false,
+  "onnx": false,
+  "moe_weights": "/content/gdrive/MyDrive/saudi_supply_demand/deep_learning_models/moe_entropy_final.pth",
+  "lgbm_resid": "/content/gdrive/MyDrive/saudi_supply_demand/deep_learning_models/lgbm_resid.txt",
+  "feat_scaler": "/content/gdrive/MyDrive/saudi_supply_demand/deep_learning_models/feat_scaler_moe_plus.pkl",
+  "sku_stats": "/content/gdrive/MyDrive/saudi_supply_demand/deep_learning_models/sku_stats_moe_plus.pkl"
+}
