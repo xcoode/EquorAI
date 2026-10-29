@@ -180,9 +180,3 @@ This complexity enabled EquorAI to **simulate equilibrium-seeking behavior** —
 * Deploy and monitor on GCP Vertex AI with continuous retraining loops.
 
 ---
-
-## 👤 Developer
-
-**Abdullah Imran**
-Machine Learning & Full Stack Developer
-📧 [abdullahimranarshad@gmail.com]
